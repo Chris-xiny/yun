@@ -1,0 +1,14 @@
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+
+# 配置文件含真实凭证，绝对不要提交
+src/main/resources/application.yaml
+
+*.log
+.DS_Store
